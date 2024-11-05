@@ -1,0 +1,54 @@
+<!-- 2.Create a feedback form that uses different HTML controls such as:
+Text input for Name.
+Textarea for Comments.
+Radio buttons for Rating.
+Checkbox for terms and conditions.
+Dropdown for selecting a category.
+Submit and reset buttons. -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Feedback Form</title>
+  </head>
+  <body>
+    <form style="padding-left: 13cm; padding-right: 10 cm">
+      <h2>Feedback Form</h2>
+      <!-- --------------------------------------------------------------------------- -->
+      <label for="name" style="font-weight: bold">Name</label><br />
+      <input style="width: 8cm" type="text" /><br /><br />
+
+      <!-- --------------------------------------------------------------------------- -->
+      <label for="comments" style="font-weight: bold">Comments</label><br />
+      <textarea style="width: 8cm" name="comments" id="c2"></textarea>
+      <br /><br />
+
+      <!-- --------------------------------------------------------------------------- -->
+      <label for="rating" style="font-weight: bold">Rating : </label>
+      <input type="radio" name="r1" id="ri1" />1
+      <input type="radio" name="r1" id="ri1" />2
+      <input type="radio" name="r1" id="ri1" />3
+      <input type="radio" name="r1" id="ri1" />4
+      <input type="radio" name="r1" id="ri1" />5 <br /><br />
+      <!-- --------------------------------------------------------------------------- -->
+      <input type="checkbox" name="accept" id="c1" />
+      <label style="font-style: italic" for="terms">terms and conditions</label>
+      <br /><br />
+      <!-- --------------------------------------------------------------------------- -->
+
+      <label for="select" style="font-weight: bold">select category</label>
+      <select name="category" id="s1">
+        <option value="select" selected>Select</option>
+        <option value="good">Good</option>
+        <option value="average">Average</option>
+        <option value="bad">Bad</option>
+      </select>
+      <br /><br />
+      <!-- --------------------------------------------------------------------------- -->
+      <button style="background-color: rgb(200, 252, 167)">Submit</button>
+      <button style="background-color: rgb(249, 162, 162)">reset</button>
+    </form>
+  </body>
+</html>

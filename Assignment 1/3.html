@@ -1,0 +1,68 @@
+<!-- 3.Design a basic blog page layout with the following:
+A header section with the blog title.
+A main section with blog posts, each inside an <article> with title, date, and content.
+A sidebar with links to recent posts.
+A footer with copyright information. -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Blog</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>My Blog</h1>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div class="blog-posts">
+        <article>
+          <h2>Blog Post Title 1</h2>
+          <p class="post-date">Published on: October 1, 2024</p>
+          <p class="post-content">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
+            laoreet eu turpis at volutpat. Curabitur vitae justo et urna laoreet
+            euismod. Cras nec dui nec urna dapibus hendrerit.
+          </p>
+          <a href="#">Read more...</a>
+        </article>
+
+        <article>
+          <h2>Blog Post Title 2</h2>
+          <p class="post-date">Published on: October 10, 2024</p>
+          <p class="post-content">
+            Suspendisse potenti. Ut eget risus enim. Fusce ut eros ut felis
+            varius ultricies id at neque. Aliquam erat volutpat. In ac ante sed
+            augue placerat sollicitudin.
+          </p>
+          <a href="#">Read more...</a>
+        </article>
+      </div>
+
+      <aside class="sidebar">
+        <h3>Recent Posts</h3>
+        <ul>
+          <li><a href="#">Post 1</a></li>
+          <li><a href="#">Post 2</a></li>
+          <li><a href="#">Post 3</a></li>
+          <li><a href="#">Post 4</a></li>
+          <li><a href="#">Post 5</a></li>
+        </ul>
+      </aside>
+    </main>
+
+    <footer>
+      <p>&copy; 2024 My Blog. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
