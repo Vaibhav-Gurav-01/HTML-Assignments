@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All</title>
+</head>
+<body>
+    
+ <!-- 3) Create a paragraph, apply solid border, and change the dimension to 100x100px -->
+
+ 
+<p style="border: solid 1px black; width: 100px; height: 100px;">
+ This is a paragraph with a solid border.
+</p>
+ 
+
+ 
+
+<!-- 4) Create a paragraph, apply dashed border, and on mouseover show background color grey -->
+
+ 
+<p style="border: dashed 2px black; transition: background-color 0.3s;" 
+  onmouseover="this.style.backgroundColor='grey'" 
+  onmouseout="this.style.backgroundColor='transparent'">
+ Hover over this paragraph to see the background change.
+</p>
+ 
+
+ 
+
+<!-- 5) Create a paragraph and bold tag, apply background color to both -->
+
+ 
+<p style="background-color: lightblue;">
+ <b style="background-color: yellow;">This is a bold text inside a paragraph.</b>
+</p>
+
+
+
+<!-- 6) Create an h1 tag, apply font size 40px, background color, and font to Arial -->
+
+ 
+<h1 style="font-size: 40px; background-color: lightcoral; font-family: Arial;">
+ This is a heading with Arial font.
+</h1>
+ 
+
+ 
+
+<!-- 7) Create an underline tag and remove its underline using CSS property -->
+
+ 
+<u style="text-decoration: none;">This text is underlined, but the underline is removed.</u>
+ 
+
+ 
+
+<!-- 8) Create a paragraph with dummy text and align its content with 4 different values (left, center, justify, right) -->
+
+ 
+<p style="text-align: left;">This text is aligned to the left.</p>
+<p style="text-align: center;">This text is centered.</p>
+<p style="text-align: justify;">This text is justified. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+<p style="text-align: right;">This text is aligned to the right.</p>
+ 
+
+ 
+
+<!-- 9) Create a paragraph with dummy text and apply indent property with 100px value -->
+
+ 
+<p style="text-indent: 100px;">
+ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur non nulla sit amet nisl tempus convallis.
+</p>
+ 
+
+ 
+
+<!-- 10) Create a paragraph with dummy text and apply decoration property with (underline, overline, line-through, none) -->
+
+ 
+<p style="text-decoration: underline;">
+ This text has an underline.
+</p>
+<p style="text-decoration: overline;">
+ This text has an overline.
+</p>
+<p style="text-decoration: line-through;">
+ This text has a line-through.
+</p>
+<p style="text-decoration: none;">
+ This text has no decoration.
+</p>
+ 
+
+ 
+
+<!-- 11) Create an anchor tag, change its color to red and remove its underline. Apply title tag and href with Google page link -->
+
+ 
+<a href="https://www.google.com" title="Google" style="color: red; text-decoration: none;">
+ Visit Google
+</a>
+ 
+
+ 
+
+<!-- 12) Show any image on the browser with dimension 200x200px. Apply border radius with 10px. On mouseover, show the image in circle format (50% border radius) -->
+
+ 
+<img src="https://via.placeholder.com/200" 
+    alt="Sample Image" 
+    style="width: 200px; height: 200px; border-radius: 10px; transition: border-radius 0.3s;" 
+    onmouseover="this.style.borderRadius='50%'" 
+    onmouseout="this.style.borderRadius='10px'">
+ 
+
+ 
+
+<!-- 13) Create a paragraph with dummy text, apply line-height double, word space with 20px & letter space with 5px -->
+
+ 
+<p style="line-height: 2; word-spacing: 20px; letter-spacing: 5px;">
+ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sit amet accumsan arcu.
+</p>
+ 
+
+ 
+
+<!-- 14) Create a paragraph with dummy text, use Google font, and apply any Google font to the paragraph -->
+
+ 
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+<p style="font-family: 'Roboto', sans-serif;">
+ This is a paragraph with a Google font applied.
+</p>
+ 
+
+ 
+
+<!-- 15) Create a paragraph & div with dummy text, identify the diff. between paragraph and div (block vs inline) -->
+
+ 
+<p style="background-color: lightgreen;">This is a paragraph, a block-level element.</p>
+<div style="background-color: lightblue;">This is a div, also a block-level element.</div>
+
+<!-- The difference is that both <p> and <div> are block-level elements, meaning they take up the full width available. -->
+<!-- However, <div> is typically used for layout and structure, while <p> is used for paragraphs of text. -->
+ 
+
+ 
+
+<!-- 16) Show city name data in unordered format -->
+
+ 
+<ul>
+ <li>New York</li>
+ <li>London</li>
+ <li>Paris</li>
+ <li>Tokyo</li>
+</ul>
+ 
+
+ 
+
+<!-- 17) Show city name data in ordered format -->
+
+ 
+<ol>
+ <li>New York</li>
+ <li>London</li>
+ <li>Paris</li>
+ <li>Tokyo</li>
+</ol>
+ 
+
+ 
+
+<!-- 18) Create a horizontal menu using <ul> <li> with float or display property -->
+
+ 
+<ul style="list-style-type: none; padding: 0; margin: 0; overflow: hidden; display: flex;">
+ <li style="margin-right: 20px;"><a href="#">Home</a></li>
+ <li style="margin-right: 20px;"><a href="#">About</a></li>
+ <li style="margin-right: 20px;"><a href="#">Services</a></li>
+ <li><a href="#">Contact</a></li>
+</ul>
+ 
+
+ 
+
+<!-- 19) Create a paragraph with dummy content, apply background color in RGB, Hexadecimal, and 3-digit format -->
+
+ 
+<p style="background-color: rgb(255, 99, 71);">
+ This paragraph has an RGB background color.
+</p>
+<p style="background-color: #ff6347;">
+ This paragraph has a 6-digit Hexadecimal background color.
+</p>
+<p style="background-color: #f63;">
+ This paragraph has a 3-digit Hexadecimal background color.
+</p>
+ 
+
+ 
+
+<!-- 20) Create a paragraph with dummy content, apply background color using `rgba()`. Explain the use of `[a]` in `rgba`. -->
+
+ 
+<p style="background-color: rgba(255, 99, 71, 0.5);">
+ This paragraph has an RGBA background color with 50% opacity.
+</p>
+
+
+
+ 
+
+<!-- 21) Create a div (100x100 dimension). Shift the div 300px from left side, 200px from top. -->
+
+ 
+<div style="width: 100px; height: 100px; background-color: lightblue; position: absolute; left: 300px; top: 200px;">
+ Positioned div
+</div>
+ 
+
+ 
+
+<!-- 22) Create a div (1200x600 dimension). Align the same div in the center of the page. -->
+
+ 
+<div style="width: 1200px; height: 600px; background-color: lightgreen; margin: 0 auto;">
+ Centered div
+</div>
+
+
+ 
+
+<!-- 23) Create a div (100x100 dimension). Apply background color grey using inline CSS only. -->
+
+ 
+<div style="width: 100px; height: 100px; background-color: grey;">
+ This is a grey div.
+</div>
+ 
+
+ 
+
+<!-- 24) Create a div (100x100 dimension). Apply background color grey using inline CSS. Override it with internal CSS. -->
+
+ 
+<div style="width: 100px; height: 100px; background-color: grey;" id="myDiv">
+ This is a grey div.
+</div>
+
+<style>
+ #myDiv {
+   background-color: lightblue !important;
+ }
+</style>
+ 
+
+ 
+
+<!-- 25) Apply color red to the first letter of the given string in an h1 tag -->
+
+ 
+<h1><span style="color: red;">h</span>ello world</h1>
+ 
+
+ 
+
+<!-- 26) Apply background color grey to the first line of the given string in a p tag -->
+
+ 
+<p style="background-color: grey; display: inline;">
+ This is a sample text with the first line in grey background.
+</p>
+ 
+
+<!-- 27) Generate ul li tag with city name & apply background color grey to first & last li using filter in CSS -->
+
+<ul>
+  <li style="background-color: grey;">New York</li>
+  <li>London</li>
+  <li>Paris</li>
+  <li>Tokyo</li>
+  <li style="background-color: grey;">Sydney</li>
+</ul>
+
+<!-- 28) Create 3 div elements with dummy content, and apply different background colors to each div using the class attribute -->
+
+<div class="div1">This is div 1 with background color red.</div>
+<div class="div2">This is div 2 with background color blue.</div>
+<div class="div3">This is div 3 with background color green.</div>
+
+<style>
+  .div1 {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+  }
+  .div2 {
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+  }
+  .div3 {
+    background-color: green;
+    width: 100px;
+    height: 100px;
+  }
+</style>
+
+</body>
+</html>

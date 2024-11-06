@@ -1,0 +1,67 @@
+body{
+    margin-left: 2cm;
+    margin-right: 2cm;
+}
+.class2,.class3,.class4,.class5,.class6{
+    margin: 15px;
+    border: 1px solid black;
+}
+.class1{
+    background-color: rgba(0, 0, 0, 0.849);
+    color: white;
+    margin: 15px;
+}
+
+.aheader1{
+text-align: end;
+}
+.aheader2{
+    background-color: lightcyan;
+}
+
+/* ------------------------------------ */
+
+.class2{
+    /* margin-top: 30px; */
+    text-align: center;
+}
+img{
+    padding: 20px;    
+}
+
+/* ------------------------------------ */
+
+h2{
+    margin-top: 0px;
+    background-color: rgba(0, 0, 0, 0.732);
+    color: white;
+    padding: 4px;
+}
+
+/* ------------------------------------ */
+.addr p{
+    margin: 0;
+}
+.btn{
+    background-color: rgba(0, 0, 0, 0.732);
+    margin-top: 20px;
+    padding: 6px;
+}
+/* ------------------------------------ */
+
+.contact p{
+    margin: 2px;
+}
+
+/* /------------------------------------- */
+.class6{
+    background-color: rgba(0, 0, 0, 0.608);
+    color: white;
+}
+.class6 p{
+    margin: 5px;;
+}
+
+/* ---------------------------- */
+
+
