@@ -1,0 +1,795 @@
+
+<!-- 27) Create 3 div with dummy content and apply different font sizes using the id attribute: -->
+
+
+<div id="div1">This is div 1 with font size 14px.</div>
+<div id="div2">This is div 2 with font size 20px.</div>
+<div id="div3">This is div 3 with font size 24px.</div>
+
+<style>
+  #div1 {
+    font-size: 14px;
+  }
+  #div2 {
+    font-size: 20px;
+  }
+  #div3 {
+    font-size: 24px;
+  }
+</style>
+
+
+
+
+<!-- 28) Example showing the advantage of class over id: -->
+
+
+<div class="highlight">This is a highlighted div.</div>
+<div class="highlight">This is another highlighted div.</div>
+<div class="highlight">This is yet another highlighted div.</div>
+
+<style>
+  .highlight {
+    background-color: yellow;
+  }
+</style>
+
+
+
+
+<!-- 29) Create a paragraph and apply border color, style, and width to the bottom section: -->
+
+
+<p>This is a paragraph with a styled bottom border.</p>
+
+<style>
+  p {
+    border-bottom-color: red;
+    border-bottom-style: dashed;
+    border-bottom-width: 5px;
+  }
+</style>
+
+
+
+
+<!-- 30) Define the border-radius property to the bottom-left corner of a paragraph: -->
+
+
+p {
+  border-bottom-left-radius: 15px;
+}
+
+
+
+
+<!-- 31) Generate a paragraph (100x100) with content, shifted from left and top using padding: -->
+
+
+<p>This is a paragraph with padding to shift content.</p>
+
+<style>
+  p {
+    width: 100px;
+    height: 100px;
+    padding-left: 20px;
+    padding-top: 20px;
+    background-color: lightgray;
+  }
+</style>
+
+
+
+
+<!-- 32) Generate a paragraph (100x100) with different border styles, colors, and widths: -->
+
+
+<p>This is a paragraph with different border properties.</p>
+
+<style>
+  p {
+    width: 100px;
+    height: 100px;
+    border-top: 3px solid red;
+    border-right: 4px dashed green;
+    border-bottom: 5px dotted blue;
+    border-left: 6px double black;
+  }
+</style>
+
+
+
+
+<!-- 33) How to set the color: blue of the left border for paragraph: -->
+
+
+p {
+  border-left: 3px solid blue;
+}
+
+
+
+
+<!-- 34) How to set the style: dashed of the left border for paragraph: -->
+
+
+p {
+  border-left: 3px dashed black;
+}
+
+
+
+
+<!-- 35) How to set the width: medium of the left border for paragraph: -->
+
+
+p {
+  border-left: medium solid black;
+}
+
+
+
+
+<!-- 36) Create a paragraph with dummy content, set text to lowercase, uppercase, and capitalize format: -->
+
+
+<p>This is some mixed-case text.</p>
+
+<style>
+  p {
+    text-transform: lowercase; /* Use uppercase or capitalize to see different effects */
+  }
+</style>
+
+
+
+
+<!-- 37) Set different font weights for paragraphs: -->
+
+
+<p>This is normal weight text.</p>
+<p>This is bold text.</p>
+
+<style>
+  p:nth-child(1) {
+    font-weight: normal;
+  }
+  p:nth-child(2) {
+    font-weight: bold;
+  }
+</style>
+
+
+
+
+<!-- 38) Create a paragraph with dummy content, apply font size in em (i.e., 2em, 1.5em, etc.): -->
+
+
+<p>This is text with different font sizes in em.</p>
+
+<style>
+  p {
+    font-size: 2em; /* 1em typically equals the current font size (usually 16px) */
+  }
+</style>
+
+
+Note: `1em` equals the current font size, so `2em` will be 2 times larger.
+
+
+
+<!-- 39) Create a paragraph and set padding of 20px on all sides: -->
+
+
+<p>This is a paragraph with 20px padding on all sides.</p>
+
+<style>
+  p {
+    padding: 20px;
+  }
+</style>
+
+
+
+
+<!-- 40) Set padding from top and bottom only with 20px: -->
+
+
+<p>This paragraph has 20px padding on top and bottom.</p>
+
+<style>
+  p {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+</style>
+
+
+
+
+<!-- 41) Set padding from right and left only with 20px: -->
+
+
+<p>This paragraph has 20px padding on right and left.</p>
+
+<style>
+  p {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+</style>
+
+
+
+
+<!-- 42) Set padding with top 20px, right-left 40px, and bottom 40px: -->
+
+
+<p>This paragraph has asymmetric padding.</p>
+
+<style>
+  p {
+    padding: 20px 40px 40px 40px;
+  }
+</style>
+
+
+
+
+<!-- 43) Specify the space between words in a paragraph: -->
+
+
+<p>This is some text with more space between words.</p>
+
+<style>
+  p {
+    word-spacing: 10px;
+  }
+</style>
+
+
+
+
+<!-- 44) Specify the space between letters in a paragraph: -->
+
+
+<p>This is some text with spaced-out letters.</p>
+
+<style>
+  p {
+    letter-spacing: 2px;
+  }
+</style>
+
+
+
+
+<!-- 45) Specify the space between lines in a paragraph: -->
+
+
+<p>This is a paragraph with adjusted line spacing.</p>
+
+<style>
+  p {
+    line-height: 2;
+  }
+</style>
+
+
+
+
+<!-- 46) Set the maximum width of a paragraph: -->
+
+
+<p>This paragraph has a max-width of 300px.</p>
+
+<style>
+  p {
+    max-width: 300px;
+  }
+</style>
+
+
+
+
+<!-- 47) Show the difference between height, min-height, and max-height with 3 divs: -->
+
+
+<div class="box" style="height: 200px;">Height: 200px</div>
+<div class="box" style="min-height: 200px;">Min-height: 200px</div>
+<div class="box" style="max-height: 200px;">Max-height: 200px</div>
+
+<style>
+  .box {
+    width: 100px;
+    border: 1px solid black;
+    margin: 5px;
+    background-color: lightblue;
+  }
+</style>
+
+
+
+
+<!-- 48) Generate a `ul` with city names and set different list styles: -->
+
+
+<ul style="list-style-type: circle;">
+  <li>New York</li>
+  <li>London</li>
+  <li>Paris</li>
+</ul>
+
+<ul style="list-style-type: square;">
+  <li>Tokyo</li>
+  <li>Berlin</li>
+  <li>Dubai</li>
+</ul>
+
+
+
+
+<!-- 49) Set a paragraph to a small-caps font: -->
+
+
+<p>This text is displayed in small-caps.</p>
+
+<style>
+  p {
+    font-variant: small-caps;
+  }
+</style>
+
+
+
+
+<!-- 50) Specify all border properties in one declaration (short hand): -->
+
+
+<div>This is a div with a border defined in one declaration.</div>
+
+<style>
+  div {
+    border: 3px solid black;
+  }
+</style>
+
+
+
+
+<!-- 51) Create a div with width 1000px, align it in the center: -->
+
+
+<div>This div is centered.</div>
+
+<style>
+  div {
+    width: 1000px;
+    margin: 0 auto;
+  }
+</style>
+
+
+
+
+<!-- 52) Create a div (100x100) with padding from all sides: -->
+
+
+<div>This div has padding on all sides.</div>
+
+<style>
+  div {
+    width: 100px;
+    height: 100px;
+    padding: 40px;
+    background-color: lightblue;
+  }
+</style>
+
+
+
+
+<!-- 53) Create a div (100x100) and scale it on mouseover: -->
+
+
+<div>This div scales on hover.</div>
+
+<style>
+  div {
+    width: 100px;
+    height: 100px;
+    transition: transform 0.3s;
+  }
+
+  div:hover {
+    transform: scale(1.5);
+  }
+</style>
+
+
+
+
+<!-- 54) Print preformatted text: -->
+
+
+<pre>
+This is preformatted text.
+  It maintains spacing and line breaks.
+</pre>
+
+
+
+
+<!-- 55) Create links to various search engines: -->
+
+
+<a href="https://www.google.com">Google</a>
+<a href="https://www.yahoo.com">Yahoo</a>
+<a href="https://www.altavista.com">Altavista</a>
+<a href="https://www.lycos.com">Lycos</a>
+
+
+
+
+<!-- 56) Create links to five different pages that open in a new window: -->
+
+
+<a href="https://www.google.com" target="_blank">Google</a>
+<a href="https://www.yahoo.com" target="_blank">Yahoo</a>
+<a href="https://www.altavista.com" target="_blank">Altavista</a>
+<a href="https://www.lycos.com" target="_blank">Lycos</a>
+<a href="https://www.bing.com" target="_blank">Bing</a>
+
+
+
+
+<!-- 57) Display an image with a border size of 2, width of 200, and height of 200: -->
+
+
+<img src="https://via.placeholder.com/200" alt="Placeholder Image" style="border: 2px solid black; width: 200px; height: 200px;">
+
+
+
+
+<!-- 58) Display an image that links to Google when clicked (opens in a new window): -->
+
+
+<a href="https://www.google.com" target="_blank">
+  <img src="https://via.placeholder.com/200" alt="Google" width="200" height="200">
+</a>
+
+
+
+
+<!-- 59) Create a div with dummy content and display text in italic format: -->
+
+
+<div style="font-style: italic;">This is italic text.</div>
+
+
+
+
+<!-- 60) How to indent the first line of a paragraph with dummy content? -->
+
+
+<p>This is a paragraph with the first line indented.</p>
+
+<style>
+  p {
+    text-indent: 30px;
+  }
+</style>
+
+
+
+
+<!-- 61) How to indent all lines of a paragraph with dummy content? -->
+
+
+<blockquote>
+  <p>This is a paragraph where all lines are indented.</p>
+</blockquote>
+
+<style>
+  blockquote p {
+    text-indent: 30px; /* Indents every line of the paragraph */
+  }
+</style>
+
+
+
+
+<!-- 62) Why is a class required in CSS? How to define class in CSS? Show example with the advantage of class: -->
+
+
+
+<div class="box red">This is a red box.</div>
+<div class="box blue">This is a blue box.</div>
+
+<div class="box red large">This is a large red box.</div>
+
+<style>
+  .box {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+  }
+  .red {
+    background-color: red;
+  }
+  .blue {
+    background-color: blue;
+  }
+  .large {
+    width: 200px;
+    height: 200px;
+  }
+</style>
+
+
+
+
+<!-- 63) Why is an ID required in CSS? How to define an ID in CSS? Show example with the advantage of ID: -->
+
+
+<div id="unique">This is a unique div with an ID.</div>
+
+<p id="unique">This should not be used, since IDs must be unique on a page.</p>
+
+<style>
+  #unique {
+    background-color: yellow;
+    padding: 20px;
+  }
+</style>
+
+
+
+
+<!-- 64) Example for border-style property with different values: -->
+
+
+<div style="border-style: solid;">Solid border</div>
+<div style="border-style: dashed;">Dashed border</div>
+<div style="border-style: dotted;">Dotted border</div>
+<div style="border-style: inset;">Inset border</div>
+<div style="border-style: outset;">Outset border</div>
+
+
+
+
+<!-- 65) Example for border-width property with different values: -->
+
+
+<div style="border: 5px solid black;">5px border width</div>
+<div style="border: thin solid black;">Thin border</div>
+<div style="border: medium solid black;">Medium border</div>
+<div style="border: 10px solid black;">10px border width</div>
+
+
+
+
+<!-- 66) Example for border-color property with different values: -->
+
+
+<div style="border: 3px solid blue;">Blue border</div>
+<div style="border: 3px solid #ff0000;">Hexadecimal color border (red)</div>
+<div style="border: 3px solid rgb(0, 255, 0);">RGB color border (green)</div>
+
+
+
+
+<!-- 67) Example for border-radius property with different values: -->
+
+
+<div style="border: 3px solid black; border-radius: 10px;">Rounded corners</div>
+<div style="border: 3px solid black; border-radius: 50%;">Circular border radius</div>
+<div style="border: 3px solid black; border-radius: 20px 50px 30px 10px;">Different corner radii</div>
+
+
+
+
+<!-- 68) Generate a table with 3x3 columns and rows with dummy content: -->
+
+
+<table border="1">
+  <tr>
+    <td>Row 1, Cell 1</td>
+    <td>Row 1, Cell 2</td>
+    <td>Row 1, Cell 3</td>
+  </tr>
+  <tr>
+    <td>Row 2, Cell 1</td>
+    <td>Row 2, Cell 2</td>
+    <td>Row 2, Cell 3</td>
+  </tr>
+  <tr>
+    <td>Row 3, Cell 1</td>
+    <td>Row 3, Cell 2</td>
+    <td>Row 3, Cell 3</td>
+  </tr>
+</table>
+
+
+
+
+<!-- 69) Generate a 3x3 table with width 300px, and apply border-collapse property: -->
+
+
+<table border="1" style="border-collapse: collapse;">
+  <tr>
+    <td>Row 1, Cell 1</td>
+    <td>Row 1, Cell 2</td>
+    <td>Row 1, Cell 3</td>
+  </tr>
+  <tr>
+    <td>Row 2, Cell 1</td>
+    <td>Row 2, Cell 2</td>
+    <td>Row 2, Cell 3</td>
+  </tr>
+  <tr>
+    <td>Row 3, Cell 1</td>
+    <td>Row 3, Cell 2</td>
+    <td>Row 3, Cell 3</td>
+  </tr>
+</table>
+
+
+
+
+<!-- 70) What is cellspacing in a table? Write down sample code for it: -->
+
+
+<table cellspacing="10">
+  <tr>
+    <td>Cell 1</td>
+    <td>Cell 2</td>
+  </tr>
+  <tr>
+    <td>Cell 3</td>
+    <td>Cell 4</td>
+  </tr>
+</table>
+
+
+
+<!-- 71) What is cellpadding in a table? Write down sample code for it: -->
+
+
+<table cellpadding="15">
+  <tr>
+    <td>Cell 1</td>
+    <td>Cell 2</td>
+  </tr>
+  <tr>
+    <td>Cell 3</td>
+    <td>Cell 4</td>
+  </tr>
+</table>
+
+
+
+<!-- 72) Example for vertical alignment in a table with sample code: -->
+
+
+<table border="1" style="height: 100px;">
+  <tr>
+    <td style="vertical-align: top;">Top aligned</td>
+    <td style="vertical-align: middle;">Middle aligned</td>
+    <td style="vertical-align: bottom;">Bottom aligned</td>
+  </tr>
+</table>
+
+
+
+
+<!-- 73) What is the use of iframe? Create a sample code for iframe tag: -->
+
+
+<iframe src="https://www.example.com" width="600" height="400"></iframe>
+
+
+Note: The `<iframe>` tag is used to embed another document within the current  document.
+
+
+
+<!-- 74) Create a sample code for video tag with controls: -->
+
+
+<video width="320" height="240" controls>
+  <source src="movie.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+
+
+
+<!-- 75) Create a sample code for audio tag with controls: -->
+
+
+<audio controls>
+  <source src="audio.mp3" type="audio/mp3">
+  Your browser does not support the audio tag.
+</audio>
+
+
+
+
+<!-- 76) Highlight or apply background color to some words in a paragraph using the span tag: -->
+
+
+<p>This is a <span style="background-color: yellow;">highlighted</span> word.</p>
+
+
+
+
+<!-- 77) Highlight or apply background color to some words using the mark tag: -->
+
+
+<p>This is a <mark>highlighted</mark> word.</p>
+
+
+
+
+
+
+<!-- 78) Create a paragraph (100x100 dimension) that rotates on hover (100deg, -50deg): -->
+
+
+<p>This paragraph rotates on hover.</p>
+
+<style>
+  p {
+    width: 100px;
+    height: 100px;
+    background-color: lightgray;
+    transition: transform 0.3s;
+  }
+
+  p:hover {
+    transform: rotate(100deg);
+  }
+</style>
+
+
+
+
+<!-- 79) Create a paragraph (100x100 dimension) that shifts on hover with translateX and translateY: -->
+
+
+<p>This paragraph shifts on hover.</p>
+
+<style>
+  p {
+    width: 100px;
+    height: 100px;
+    background-color: lightgray;
+    transition: transform 0.3s;
+  }
+
+  p:hover {
+    transform: translateX(50px) translateY(50px);
+  }
+</style>
+
+
+
+
+<!-- 80) Create a paragraph (100x100 dimension) that skews on hover with skewX and skewY: -->
+
+
+<p>This paragraph skews on hover.</p>
+
+<style>
+  p {
+    width: 100px;
+    height: 100px;
+    background-color: lightgray;
+    transition: transform 0.3s;
+  }
+
+  p:hover {
+    transform: skewX(20deg) skewY(20deg);
+  }
+</style>
+
